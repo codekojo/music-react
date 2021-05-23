@@ -1,0 +1,48 @@
+.song {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .song-img {
+    width: 20%;
+    display: inline-block;
+    border-radius: 50%;
+    //  -webkit-animation: spin 4s linear infinite;
+    //  -moz-animation: spin 4s linear infinite;
+    //  animation: spin 20s linear infinite;
+  }
+
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  h3 {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+// @-moz-keyframes spin {
+//   100% {
+//     -moz-transform: rotate(360deg);
+//   }
+// }
+// @-webkit-keyframes spin {
+//   100% {
+//     -webkit-transform: rotate(360deg);
+//   }
+// }
+// @keyframes spin {
+//   100% {
+//     -webkit-transform: rotate(360deg);
+//     transform: rotate(360deg);
+//   }
+// }
